@@ -1,0 +1,7 @@
+git clone https://github.com/cmitchellangelo/terransible.git <------this is the file pulled from repo to local system
+   #you make your changes to local repo then add#
+git add .
+git status
+git commit -m "enter whatever changes were made to repository"
+git status
+git push
