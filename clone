@@ -1,6 +1,40 @@
 git config --global user.name "Chase Mitchel"
 git config --global user.email "cmitchellangelo@gmail.com"
 
+ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/cloud_user/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/cloud_user/.ssh/id_rsa.
+Your public key has been saved in /home/cloud_user/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:lqWH0hXCAT0sa3+b/c1tyL747RiV24rAsGAlIHs+eSg cloud_user@ip-10-0-1-215.ec2.internal
+The key's randomart image is:
++---[RSA 4096]----+
+|  . . .=o..      |
+|   o .. =. .     |
+|  . . .o..o      |
+|   o oo+ *      .|
+|  E =.=.S .    ..|
+|   . + +.=.    .o|
+|        ..o+ ..o.|
+|          o..ooBo|
+|            o+B+*|
++----[SHA256]-----+
+cat /home/cloud_user/.ssh//id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCk9VQzTD0T/a9tKDCtx28XNMv7fDEsv2cIRtdjm7DMSG9Hi8rs7JZdOjQf
+P+bxcXL8qvCdC8RGf0zr9WqHzDFPjImoN0jKLh++vxmWDjVmW0SBZ2H7cgi0ZWSNSirJ3+2xXIjBIva0NOf3UP2J0WzMWAhq
+fDQ1Q43lbJn/muTz/slDE6sO1yCZkaElZMzI1sQeKo3k1pi4B8B3J/+hvs16r5NHKJOtVbJ9VUf+fRVS14l5TXY2sBEwJIRbF
+emjLfZE+IBtujS/8B84Qpzaxw65+IVeW+CONb8e1GaR0hsL6iY5pXUzTDHla6sq4F9gXNgLqTbV8jRNNHnkGCxLVH55rVya3Q
+4WYnv4kiysuKkWqPiVSGYAsMA5dFwtyBSas7fKWxBaz2IcsP15YYjkA7Je7pOWTz2sASS78UV6lGlXuVt9tz1NwHF83E6t7IW
+XLi5YVNR+bg5+9dXZcwWDdTAPUr7PbfAHg2vXHhgUN9RFX9R1k0BGwFewLdqcaggV80Tu3QKYGWH7yuWHoYN8uqTMSLJ2pUIM9
+Aa9Ie/ezMbNCqIUCdteLXKeFgYw3ZMcdRPKUwNqE0gW0xZpKuwC3ayh71r9q9U0TDSdXd4M8qyn6plr3UZIY6dyW/K4M6KhkkF
+70b1b4bHP7m0W2wFxqYvPoqblwB/E71DvJxpxgpz5UQ== cloud_user@ip-10-0-1-215.ec2.internal
+
+(then associate this public key to your github account) FYI, all this public and private keys are on a lab so nice try! :)
+
+
 
 git clone https://github.com/cmitchellangelo/terransible.git <------this is the file pulled from repo to local system
    #you make your changes to local repo then add#
