@@ -43,3 +43,13 @@ git status
 git commit -m "enter whatever changes were made to repository"
 git status
 git push
+
+
+
+***Creating a branch off master***
+git branch
+git branch dev
+git checkout dev
+
+
+git checkout -b xxxx    ---will fork the branch you are in into the new one you just created
